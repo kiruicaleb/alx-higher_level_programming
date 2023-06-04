@@ -2,7 +2,6 @@
 
 const list = require('./100-data').list;
 
-const arr = list.map((x, i) => x * i);
-
+const newList = list.map((val, i) => val * i);
 console.log(list);
-console.log(arr);
+console.log(newList);
