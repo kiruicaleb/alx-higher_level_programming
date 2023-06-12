@@ -1,2 +1,5 @@
 #!/usr/bin/node
-console.log(process.argv[2] + ' is ' + process.argv[3]);
+
+const array = process.argv;
+
+console.log(`${array[2]} is ${array[3]}`);
